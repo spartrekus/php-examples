@@ -7,13 +7,10 @@
 <p><a href="..">Back Parent (dir)</a></p>
 <br>
 
-
 <?php
-if ( $handle = opendir( "." ))
 {
      echo "PHP Simple TYPE:<br>";
-
-     $myfile = "text.txt"
+     $myfile = "text.txt";
      $file = fopen( $myfile , "r");
      while(! feof($file))
      {
